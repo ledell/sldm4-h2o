@@ -37,7 +37,7 @@ The [h2o R package](https://cran.r-project.org/web/packages/h2o/index.html) prov
 
 Start up a local H2O cluster.
 
-```{r}
+```{r, message=FALSE}
 library(h2o)
 h2o.init(nthreads = -1)
 h2o.no_progress()  # Disable progress bars for Rmd
